@@ -3,7 +3,7 @@
     "name": "STATUS",
     "slug": "status-app",
     "owner": "krisfer12",
-    "version": "1.0.19",
+    "version": "1.0.20",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "scheme": "status",
@@ -11,14 +11,14 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.status.relationshipregistry"
+      "bundleIdentifier": "com.krisfer12.statusapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0f172a"
       },
-      "package": "com.status.relationshipregistry"
+      "package": "com.krisfer12.statusapp"
     },
     "plugins": ["expo-router", "expo-camera", "expo-image-picker"]
   }
