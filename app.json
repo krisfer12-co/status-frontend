@@ -18,8 +18,25 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0f172a"
       },
-      "package": "com.krisfer12.statusapp"
+      "package": "com.krisfer12.statusapp",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
     },
-    "plugins": ["expo-router", "expo-camera", "expo-image-picker"]
+    "plugins": [
+      "expo-router",
+      "expo-camera",
+      "expo-image-picker",
+      "expo-asset"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "fe0e7f34-5ef8-4b8e-a15c-2562eb9fe26c"
+      }
+    }
   }
 }
