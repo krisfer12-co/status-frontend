@@ -3,32 +3,25 @@
     "name": "STATUS",
     "slug": "status-app",
     "owner": "krisfer12",
-    "version": "1.0.20",
+    "version": "1.0.21",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "scheme": "status",
     "userInterfaceStyle": "dark",
-    "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.krisfer12.statusapp"
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#8A2BE2"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0f172a"
+        "backgroundColor": "#8A2BE2"
       },
-      "package": "com.krisfer12.statusapp",
-      "permissions": [
-        "android.permission.CAMERA",
-        "android.permission.RECORD_AUDIO"
-      ]
+      "package": "com.krisfer12.statusapp"
     },
     "plugins": [
-      "expo-router",
-      "expo-camera",
-      "expo-image-picker",
-      "expo-asset"
+      "expo-router"
     ],
     "extra": {
       "router": {
